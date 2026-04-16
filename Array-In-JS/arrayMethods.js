@@ -96,9 +96,11 @@ This method modifies the original array and can remove, add, or replace elements
 
 
 //18. find
-let newArray = [10, 2, 5, 4, 55,]
- let result = newArray.find((item) => item > 15);
- console.log(result);
+//  let newArray = [2, 5, 10, 4, 55,]
+//  let result = newArray.find((item) => item > 15);
+//  let age = newArray.find((item) => item > 5);
+//  console.log(result);
+//  console.log(age)
 /*
     What does find do?
     Find returns the value of the first element in the array that satisfies the provided testing function. Otherwise undefined is returned.
@@ -107,6 +109,36 @@ let newArray = [10, 2, 5, 4, 55,]
 
 
 //19. findIndex
+// let result = newArray.findIndex((item) => item > 15);
+// console.log(result);
+// What does findIndex do?
+// FindIndex returns the index of the first element in the array that satisfies the provided testing function. Otherwise -1 is returned.
+
 //20. some
+// let newArray = [2, 5, 10, 4, 5]
+// let result = newArray.some((item) => item > 15);
+// console.log(result);
+/*
+    What does some do?
+    Some returns true if any element in the array passes the test implemented by the provided function. Otherwise false is returned.
+*/
+
+
 //21. every
+// let newArray = [20, 50, 100, 40, 50]
+// let result = newArray.every((item) => item > 15);
+// console.log(result);
+/*
+    What does every do?
+    Every returns true if all elements in the array pass the test implemented by the provided function. Otherwise false is returned.
+*/
+
+
 //22. includes
+let newArray = [20, 50, 100, 40, 50]
+let result = newArray.includes(1000);
+console.log(result);
+/*
+    What does includes do?
+    Includes returns true if an array includes a certain value among its entries, returning false otherwise.
+*/
