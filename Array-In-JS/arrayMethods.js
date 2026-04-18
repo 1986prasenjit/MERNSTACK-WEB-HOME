@@ -5,6 +5,20 @@
 
 let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 1, 3, 4, 10, 6, 8, 7, 9, 10];
 
+let newArr = new Array(10);
+newArr[0] = 1;
+newArr[1] = 2;
+newArr[2] = 3;
+newArr[3] = 4;
+newArr[4] = 5;
+newArr[5] = 6;
+newArr[6] = 7;
+newArr[7] = 8;
+newArr[8] = 9;
+newArr[9] = 10;
+
+console.log(newArr);
+
 //Array Methods
 //1. length
 //console.log(numberArray.length); //Length is not a Method of Array its a Property
@@ -137,7 +151,7 @@ This method modifies the original array and can remove, add, or replace elements
 //22. includes
 let newArray = [20, 50, 100, 40, 50]
 let result = newArray.includes(1000);
-console.log(result);
+//console.log(result);
 /*
     What does includes do?
     Includes returns true if an array includes a certain value among its entries, returning false otherwise.
