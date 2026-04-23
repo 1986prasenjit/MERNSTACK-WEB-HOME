@@ -3,21 +3,21 @@
 
 // let arr = [45, "str", true, null, undefined, [1, 2, 3], { name: "Arif" }, function () {}];
 
-let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 1, 3, 4, 10, 6, 8, 7, 9, 10];
+// let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 1, 3, 4, 10, 6, 8, 7, 9, 10];
 
-let newArr = new Array(10);
-newArr[0] = 1;
-newArr[1] = 2;
-newArr[2] = 3;
-newArr[3] = 4;
-newArr[4] = 5;
-newArr[5] = 6;
-newArr[6] = 7;
-newArr[7] = 8;
-newArr[8] = 9;
-newArr[9] = 10;
+// let newArr = new Array(10);
+// newArr[0] = 1;
+// newArr[1] = 2;
+// newArr[2] = 3;
+// newArr[3] = 4;
+// newArr[4] = 5;
+// newArr[5] = 6;
+// newArr[6] = 7;
+// newArr[7] = 8;
+// newArr[8] = 9;
+// newArr[9] = 10;
 
-console.log(newArr);
+// console.log(newArr);
 
 //Array Methods
 //1. length
@@ -66,7 +66,6 @@ This method modifies the original array and can remove, add, or replace elements
 //let index = numberArray.indexOf(10);
 //console.log(index);
 
-
 //9. lastIndexOf
 //let lastIndex = numberArray.lastIndexOf(10);
 //console.log(lastIndex);
@@ -75,16 +74,13 @@ This method modifies the original array and can remove, add, or replace elements
 //indexOf returns the index of the first occurrence of the specified value in the array, or -1 if it is not found.
 //lastIndexOf returns the index of the last occurrence of the specified value in the array, or -1 if it is not found.
 
-
 //10. join
 // let joinedArray = numberArray.join(" ");
 // console.log(typeof joinedArray);
 
-
 //11. reverse
 // numberArray.reverse();
 // console.log(numberArray);
-
 
 //12. sort
 // const sortedArray = numberArray.sort((a,b)=> a - b);
@@ -93,21 +89,16 @@ This method modifies the original array and can remove, add, or replace elements
     Actually when SORT is used it considered the array as a string and SORT it as a string in a lexicographical order and if we want to sort it as a number then we have to use the compare function
 */
 
-
-
 //13. concat
 // const array1 = [1, 2, 3];
 // const array2 = [4, 5, 6];
 // const array3 = array1.concat(array2);
 // console.log(array3);
 
-
 //14. forEach
 //15. map
 //16. filter
 //17. reduce
-
-
 
 //18. find
 //  let newArray = [2, 5, 10, 4, 55,]
@@ -120,7 +111,6 @@ This method modifies the original array and can remove, add, or replace elements
     Find returns the value of the first element in the array that satisfies the provided testing function. Otherwise undefined is returned.
 
 */
-
 
 //19. findIndex
 // let result = newArray.findIndex((item) => item > 15);
@@ -137,7 +127,6 @@ This method modifies the original array and can remove, add, or replace elements
     Some returns true if any element in the array passes the test implemented by the provided function. Otherwise false is returned.
 */
 
-
 //21. every
 // let newArray = [20, 50, 100, 40, 50]
 // let result = newArray.every((item) => item > 15);
@@ -147,12 +136,20 @@ This method modifies the original array and can remove, add, or replace elements
     Every returns true if all elements in the array pass the test implemented by the provided function. Otherwise false is returned.
 */
 
-
 //22. includes
-let newArray = [20, 50, 100, 40, 50]
-let result = newArray.includes(1000);
+// let newArray = [20, 50, 100, 40, 50]
+// let result = newArray.includes(1000);
 //console.log(result);
 /*
     What does includes do?
     Includes returns true if an array includes a certain value among its entries, returning false otherwise.
+*/
+
+//23. entries
+// let newArray = [20, 50, 100, 40, 50]
+// let result = newArray.entries();
+//console.log(result);
+/*
+    What does entries do?
+    Entries returns a new Array Iterator object that contains the key/value pairs for each index in the array.
 */
